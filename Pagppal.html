@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ferxxo</title>
+</head>
+<body>
+    <header class="bg-green-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">FERXXO MERCH</h1>
+            <p class="mt-2">Encuentra tu estilo MORR</p>
+            <nav class="mt-4">
+                <a href="Pagppal.html" class="text-white hover:underline mx-4" onclick="showSection('Inicio')">Catálogo</a>
+                <a href="catalogo.html" class="text-white hover:underline mx-4" onclick="showSection('catalogo')">Catálogo</a>
+                <a href="contacto.html" class="text-white hover:underline mx-4" onclick="showSection('contacto')">Contacto</a>
+                <a href="nosotros.html" class="text-white hover:underline mx-4" onclick="showSection('Nosotros')">Nosotros</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+        
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-lg font-semibold">Gorra</h3>
+            <div class="flex justify-center items-center h-64">
+                <img src="gorra.jpeg" alt="gorra" class="max-w-full h-full object-contain">
+            </div>
+            <p class="mt-2">30$US</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-lg font-semibold">Lentes</h3>
+            <div class="flex justify-center items-center h-64">
+                <img src="lentes.jpeg" alt="lentes" class="max-w-full h-full object-contain">
+            </div>
+            <p class="mt-2">15$US</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h3 class="text-lg font-semibold">Remera</h3>
+            <div class="flex justify-center items-center h-64">
+                <img src="remera.jpeg" alt="remera" class="max-w-full h-full object-contain">
+            </div>
+            <p class="mt-2">20$US</p>
+        </div>
+    </div>
+
+    <div class="mt-8 text-center">
+        <p class="text-lg font-semibold text-gray-700">Visita nuestro catálogo para encontrar todos tus productos favoritos de Feid.</p>
+    </div>
+</body>
+</html>

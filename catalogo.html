@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Catálogo</title>
+</head>
+<body>
+    <header class="bg-green-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">Catálogo</h1>
+            <p class="mt-2">¡Compra tus artículos preferidos!</p>
+            <nav class="mt-4">
+                <a href="Pagppal.html" class="text-white hover:underline mx-4" onclick="showSection('Inicio')">Inicio</a>
+                <a href="catalogo.html" class="text-white hover:underline mx-4" onclick="showSection('catalogo')">Catálogo</a>
+                <a href="contacto.html" class="text-white hover:underline mx-4" onclick="showSection('contacto')">Contacto</a>
+                <a href="nosotros.html" class="text-white hover:underline mx-4" onclick="showSection('Nosotros')">Nosotros</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 p-4">
+        <section id="catalogo" class="text-center">
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+            
+                <div class="bg-white p-6 rounded-lg shadow-lg relative">
+                    <span class="absolute top-2 left-2 bg-red-600 text-white text-xs font-bold py-1 px-2 rounded">Más vendido</span>
+                    <h3 class="text-lg font-semibold">Gorra</h3>
+                    <div class="flex justify-center items-center h-64">
+                        <img src="gorra.jpeg" alt="gorra" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">20$USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg relative">
+                    <span class="absolute top-2 left-2 bg-red-600 text-white text-xs font-bold py-1 px-2 rounded">Más vendido</span>
+                    <h3 class="text-lg font-semibold">Lentes</h3>
+                    <div class="flex justify-center items-center h-64">
+                        <img src="lentes.jpeg" alt="lentes" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">15$USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg relative">
+                    <span class="absolute top-2 left-2 bg-red-600 text-white text-xs font-bold py-1 px-2 rounded">Más vendido</span>
+                    <h3 class="text-lg font-semibold">Remera</h3>
+                    <div class="flex justify-center items-center h-64">
+                        <img src="remera.jpeg" alt="remera" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">30$USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Buzo Negro</h3>
+                    <div class="flex justify-center items-center h-64">
+                        <img src="Buzo.jpg" alt="Buzo negro" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">60$USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Disco Ferxxocalipsis</h3>
+                    <div class="flex justify-center items-center h-64">
+                      <img src="DiscoFerxxocalipsis.jpg" alt="DiscoFerxxocalipsis" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">100$USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Album Poster FERXXO Disco-vol-1</h3>
+                    <div class="flex justify-center items-center h-64">
+                      <img src="Disco-vol-1.jpg" alt="Album Poster FERXXO vol1" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">80$USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Album Poster Intershibuya FERXXO EDITION</h3>
+                    <div class="flex justify-center items-center h-64">
+                      <img src="Intershibuya.jpg" alt="Album Poster Intershibuya" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">80$USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Album Poster FELIZ CUMPLE FERXXO</h3>
+                    <div class="flex justify-center items-center h-64">
+                      <img src="felizcumpleferxxo.jpg" alt="Album Poster Feliz cumple Ferxxo" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">80$USD</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Zapatillas SALOMON X Feid</h3>
+                    <div class="flex justify-center items-center h-64">
+                      <img src="Zapatillas.jpg" alt="Zapatillas SALOMON X Feid" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">160$USD</p>
+                </div>
+            </div>
+        </section> 
+    </main>
+</body>
+</html>
